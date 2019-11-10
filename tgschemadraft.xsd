@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tg="tabletopGame" elementFormDefault="qualified">
+
+
+
+    <xs:element name="game">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="titleInformation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title"/>
+                            <xs:element name="titleLanguage" maxOccurs="1" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="alternativeTitleInformation" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="alternativeTitle" maxOccurs="1" minOccurs="1"/>
+                            <xs:element name="alternativeTitleLanguage" maxOccurs="1" minOccurs="0"
+                            />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="contributorInformation" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="contributorName"/>
+                            <xs:element name="contributorNameSource"/>
+                            <xs:element name="contributorType"/>
+                            <xs:element name="contributorRole" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="edition" minOccurs="0"/>
+                <xs:element name="description" minOccurs="0"/>
+                <xs:element name="origin" minOccurs="0"/>
+                <xs:element name="language" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element name="instructionInformation" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="instructions"/>
+                            <xs:element name="instructionsLanguage"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="playerInformation" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="minPlayerNumber" minOccurs="0"/>
+                            <xs:element name="maxPlayerNumber" minOccurs="0"/>
+                            <xs:element name="minRecommendedAge" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gameplayInformation" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="minPlayTime" minOccurs="0"/>
+                            <xs:element name="maxPlayTime" minOccurs="0"/>
+                            <xs:element name="difficulty" minOccurs="0"/>
+                            <xs:element name="mechanism" maxOccurs="3" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="suppliesRequired" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element name="baseGameRequired" minOccurs="0"/>
+                <xs:element name="characterInformation" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="characterName"/>
+                            <xs:element name="characterNameSource"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="awardInformation" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="awardName"/>
+                            <xs:element name="awardYear" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="subjectInformation" maxOccurs="3" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="subject"/>
+                            <xs:element name="subjectSource"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="genre" maxOccurs="3" minOccurs="0"/>
+                <xs:element name="family" maxOccurs="5" minOccurs="0"/>
+                <xs:element name="gameVariantInformation" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gameVariantTitle"/>
+                            <xs:element name="gameVariantInstructions" maxOccurs="1" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="accessibilityNote" minOccurs="0"/>
+                <xs:element name="note" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="gameSystem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="gameSystemTitleInformation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gameSystemTitle"/>
+                            <xs:element name="gameSystemTitleLanguage" maxOccurs="1" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gameSystemAlternativeTitleInformation" maxOccurs="unbounded"
+                    minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gameSystemAlternativeTitle"/>
+                            <xs:element name="gameSystemAlternativeTitleLanguage" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gameSystemContributorInformation" maxOccurs="unbounded"
+                    minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gameSystemContributorName"/>
+                            <xs:element name="gameSystemContributorNameSource"/>
+                            <xs:element name="gameSystemContributorType"/>
+                            <xs:element name="gameSystemContributorRole" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="gameSystemDimensions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0"
+                                name="gameSystemContainerDimensions"/>
+                            <xs:element maxOccurs="unbounded" minOccurs="0"
+                                name="gameSystemBoardDimensions"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" name="gameSystemIdentifierInformation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gameSystemIdentifier"/>
+                            <xs:element name="gameSystemIdentifierType"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" name="gameSystemEdition"/>
+                <xs:element minOccurs="0" name="gameSystemDateInformation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="gameSystemPublicationDate"/>
+                            <xs:element minOccurs="0" name="gameSystemCopyrightDate"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" name="gameSystemDescription"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="gameSystemLanguage"/>
+                <xs:element maxOccurs="unbounded" minOccurs="0"
+                    name="gameSystemInstructionsInformation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="1" name="gameSystemInstructions"/>
+                            <xs:element name="gameSystemInstructionsLanguage"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="3" minOccurs="0" name="gameSystemPriceInformation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="gameSystemPrice"/>
+                            <xs:element name="gameSystemPriceSource"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="gameSystemSuppliesRequired"/>
+                <xs:element minOccurs="0" name="gameSystemContents"/>
+                <xs:element minOccurs="0" name="gameSystemNote"/>
+                <xs:element minOccurs="0" name="gameSystemAccessibilityNote"/>
+                <xs:element ref="game"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
