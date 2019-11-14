@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://github.com/tfhenning/tgschema/blob/master/tgschemadraft.xsd?raw=true">
+    <gameSystemTitleInformation>
+        <gameSystemTitle>Paper Playing Cards</gameSystemTitle>
+        <gameSystemTitleLanguage>English</gameSystemTitleLanguage>
+    </gameSystemTitleInformation>
+    <gameSystemAlternativeTitleInformation>
+        <gameSystemAlternativeTitle>French Playing Cards</gameSystemAlternativeTitle>
+        <gameSystemAlternativeTitleLanguage>English</gameSystemAlternativeTitleLanguage>
+    </gameSystemAlternativeTitleInformation>
+    <gameSystemContributorInformation>
+        <gameSystemContributorName>Gemãco (firm)</gameSystemContributorName>
+        <gameSystemContributorNameSource>LCNAF</gameSystemContributorNameSource>
+        <gameSystemContributorType>Corporation</gameSystemContributorType>
+        <gameSystemContributorRole>Manufacturer</gameSystemContributorRole>
+    </gameSystemContributorInformation>
+    <gameSystemDimensions>
+        <gameSystemContainerDimensions>9 x 6.5 x 1.75 cm</gameSystemContainerDimensions>
+    </gameSystemDimensions>
+    <gameSystemDescription>Your average deck of playing cards. Formerly used by Rhythm City Casino Resort.</gameSystemDescription>
+    <gameSystemContents>52 cards</gameSystemContents>
+    <game>
+        <titleInformation>
+            <title>Bullshit</title>
+            <titleLanguage>English</titleLanguage>
+        </titleInformation>
+        <alternativeTitleInformation>
+            <alternativeTitle>Bologna</alternativeTitle>
+            <alternativeTitleLanguage>English</alternativeTitleLanguage>
+        </alternativeTitleInformation>
+        <alternativeTitleInformation>
+            <alternativeTitle>B.S.</alternativeTitle>
+            <alternativeTitleLanguage>Englsih</alternativeTitleLanguage>
+        </alternativeTitleInformation>
+        <alternativeTitleInformation>
+            <alternativeTitle>Cheat</alternativeTitle>
+            <alternativeTitleLanguage>English</alternativeTitleLanguage>
+        </alternativeTitleInformation>
+        <alternativeTitleInformation>
+            <alternativeTitle>I Doubt It</alternativeTitle>
+            <alternativeTitleLanguage>English</alternativeTitleLanguage>
+        </alternativeTitleInformation>
+        <description>A game of deceit and strategy.</description>
+        <instructionInformation>
+            <instructions>https://en.wikipedia.org/wiki/Cheat_(game)</instructions>
+            <instructionsLanguage>English</instructionsLanguage>
+        </instructionInformation>
+        <playerInformation>
+            <minPlayerNumber>2</minPlayerNumber>
+            <maxPlayerNumber>6</maxPlayerNumber>
+            <minRecommendedAge>8</minRecommendedAge>
+        </playerInformation>
+        <gameplayInformation>
+            <minPlayTime>15 min.</minPlayTime>
+            <maxPlayTime>3 hrs.</maxPlayTime>
+            <difficulty>2/5</difficulty>
+            <mechanism>Cards</mechanism>
+        </gameplayInformation>
+        <subjectInformation>
+            <subject>Truthfulness and falsehood</subject>
+            <subjectSource>LCSH</subjectSource>
+        </subjectInformation>
+        <genre>Card games</genre>
+        <gameVariantInformation>
+            <gameVariantTitle>Bullshit (Drinking Game)</gameVariantTitle>
+            <gameVariantInstructions>http://www.52pickup.net/card-games/bullshit/</gameVariantInstructions>
+        </gameVariantInformation>
+        <note>More players can be accommodated by combining multiple decks.</note>
+    </game>
+</gameSystem>
