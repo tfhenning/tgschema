@@ -139,20 +139,14 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name="gameCharacters" maxOccurs="1" minOccurs="0">
+                <xs:element name="gameCharacter" maxOccurs="unbounded">
                     <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="characterName" maxOccurs="unbounded">
-                                <xs:complexType>
-                                    <xs:simpleContent>
-                                        <xs:extension base="xs:string">
-                                            <xs:attribute ref="source" use="optional"/>
-                                            <xs:attribute ref="sourceID"/>
-                                        </xs:extension>
-                                    </xs:simpleContent>
-                                </xs:complexType>
-                            </xs:element>
-                        </xs:sequence>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute ref="source" use="optional"/>
+                                <xs:attribute ref="sourceID"/>
+                            </xs:extension>
+                        </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
                 <xs:element name="award" maxOccurs="unbounded" minOccurs="0">
@@ -242,7 +236,7 @@
                 <xs:element maxOccurs="unbounded" minOccurs="0" name="relatedWorkInformation">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="workTitle" maxOccurs="unbounded">
+                            <xs:element name="relatedWorkTitle" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:simpleContent>
                                         <xs:extension base="xs:string">
@@ -254,7 +248,7 @@
                                     </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element minOccurs="0" name="relationshipNote">
+                            <xs:element minOccurs="0" name="relatedWorkNote">
                                 <xs:complexType>
                                     <xs:simpleContent>
                                         <xs:extension base="xs:string"/>
