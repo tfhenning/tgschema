@@ -3,7 +3,7 @@
     xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/tfhenning/tgschema/master/TabletopGamesMetadataSchema1.0.xsd">
     <gameSystemTitle pref="preferred" type="inscribed" lang="eng">Paper Playing Cards</gameSystemTitle>
     <gameSystemTitle pref="alternate" type="traditional" lang="eng">French Playing Cards</gameSystemTitle>
-    <gameSystemContributor type="corporate" role="manufacturers" source="LCNAF" sourceID="2015038138">Gemãco (firm)</gameSystemContributor>
+    <gameSystemContributor type="corporate" role="manufacturers" source="LCNAF" sourceID="no2015038138">Gemãco (firm)</gameSystemContributor>
     <gameSystemDescription>Your average deck of cards. This deck was formerly used by Rhythm City Casino Resort.</gameSystemDescription>
     <gameSystemLanguage>eng</gameSystemLanguage>
     <gameSystemContents>52 cards</gameSystemContents>
@@ -57,7 +57,7 @@
         </gameplayInformation>
         <suppliesRequired>
             <additionalSupplies type="chips"/>
-            <suppliesNote> Poker chips, money, or any other items can be used for wagering, though is optional.</suppliesNote>
+            <suppliesNote> Poker chips, money, or any other items can be used for wagering, though this is optional.</suppliesNote>
         </suppliesRequired>
         <subject source="LCSH">Risk-taking (Psychology)</subject>
         <subject source="LCSH">Gambling</subject>
