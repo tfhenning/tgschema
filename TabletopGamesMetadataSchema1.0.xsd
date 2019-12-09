@@ -253,13 +253,13 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element minOccurs="0" name="braille">
-                                <xs:complexType></xs:complexType>
+                                <xs:complexType/>
                             </xs:element>
                             <xs:element minOccurs="0" name="colorBlindFriendly">
-                                <xs:complexType></xs:complexType>
+                                <xs:complexType/>
                             </xs:element>
                             <xs:element minOccurs="0" name="largePrint">
-                                <xs:complexType></xs:complexType>
+                                <xs:complexType/>
                             </xs:element>
                             <xs:element minOccurs="0" name="accessibilityNote">
                                 <xs:complexType>
@@ -323,7 +323,7 @@
                         </xs:simpleContent>
                     </xs:complexType>
                 </xs:element>
-                <xs:element minOccurs="0" name="gameSystemIdentifier" maxOccurs="unbounded">
+                <xs:element minOccurs="0" name="gameSystemIdentifier" maxOccurs="3">
                     <xs:complexType>
                         <xs:simpleContent>
                             <xs:extension base="xs:string">
@@ -379,13 +379,13 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element minOccurs="0" name="braille">
-                                <xs:complexType></xs:complexType>
+                                <xs:complexType/>
                             </xs:element>
                             <xs:element minOccurs="0" name="colorBlindFriendly">
-                                <xs:complexType></xs:complexType>
+                                <xs:complexType/>
                             </xs:element>
                             <xs:element minOccurs="0" name="largePrint">
-                                <xs:complexType></xs:complexType>
+                                <xs:complexType/>
                             </xs:element>
                             <xs:element minOccurs="0" name="gameSystemAccessibilityNote">
                                 <xs:complexType>
