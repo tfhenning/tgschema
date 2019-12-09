@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/tfhenning/tgschema/master/TabletopGamesMetadataSchema1.0.xsd">
+    <gameSystemTitle pref="preferred" type="inscribed" lang="eng">Paper Playing Cards</gameSystemTitle>
+    <gameSystemTitle pref="alternate" type="traditional" lang="eng">French Playing Cards</gameSystemTitle>
+    <gameSystemContributor type="corporate" role="manufacturers" source="LCNAF" sourceID="no2015038138">Gemãco (firm)</gameSystemContributor>
+    <gameSystemDescription>A deck of playing cards. This deck was formerly used by Rhythm City Casino Resort.</gameSystemDescription>
+    <gameSystemLanguage>eng</gameSystemLanguage>
+    <gameSystemContents>52 cards</gameSystemContents>
+    <gameSystemDimensions type="container">9 x 7 x 2 cm</gameSystemDimensions>
+    <gameSystemIdentifier type="local">Deck 2</gameSystemIdentifier>
+    <game>
+        <title pref="preferred" lang="eng">Bullshit</title>
+        <title pref="alternate" lang="eng">Bologna</title>
+        <title pref="alternate" lang="eng">B.S.</title>
+        <title pref="alternate" lang="eng">Cheat</title>
+        <title pref="alternate" lang="eng">I Doubt It</title>
+        <description>A game of deceit and strategy.</description>
+        <instructions lang="eng">https://en.wikipedia.org/wiki/Cheat_(game)</instructions>
+        <playerInformation>
+            <minPlayerNumber>2</minPlayerNumber>
+            <maxPlayerNumber>6</maxPlayerNumber>
+            <minRecommendedAge>8</minRecommendedAge>
+        </playerInformation>
+        <gameplayInformation>
+            <minPlayTime>00:15:00</minPlayTime>
+            <maxPlayTime>03:00:00</maxPlayTime>
+            <difficulty source="local">2/5</difficulty>
+            <mechanism>Card drafting</mechanism>
+            <mechanism>Trick-taking</mechanism>
+        </gameplayInformation>
+        <subject source="LCSH">Truthfulness and falsehood</subject>
+        <genre source="Langsdale Game Genre Headings" sourceID="http://metadataregistry.org/concept/show/id/7027.html">Card games</genre>
+        <gameVariantInformation>
+            <gameVariantTitle>Bullshit (Drinking Game)</gameVariantTitle>
+            <gameVariantInstructions lang="eng">http://www.52pickup.net/card-games/bullshit/</gameVariantInstructions>
+            <gameVariantNote>Please drink responsibly.</gameVariantNote>
+        </gameVariantInformation>
+        <note>More players can be accommodated by combining multiple decks.</note>
+    </game>
+    <game>
+        <title pref="preferred" type="traditional" lang="eng">Poker</title>
+        <title pref="alternate" lang="spa">Póker</title>
+        <description>"The object of the game is to win the pot which contains all the bets the players have made in a deal. Players are dealt cards which are usually reduced to a Poker hand of five (5) cards. Betting and bluffing are used in rounds until all bets are squared up, or until all other players have conceded the pot (folded). If all bets have been squared up, the rounds are followed by a "showdown" in which all hands are fully revealed; the one with the best combination of a Poker hand of five (5) cards being the winner."--Board Game Geek (https://boardgamegeek.com/boardgame/1115/poker)</description>
+        <instructions lang="eng">https://www.pokerlistings.com/how-to-play-poker</instructions>
+        <playerInformation>
+            <minPlayerNumber>2</minPlayerNumber>
+            <maxPlayerNumber>10</maxPlayerNumber>
+            <minRecommendedAge>12</minRecommendedAge>
+        </playerInformation>
+        <gameplayInformation>
+            <minPlayTime>00:30:00</minPlayTime>
+            <maxPlayTime>01:30:00</maxPlayTime>
+            <difficulty source="local">3/5</difficulty>
+            <mechanism>Betting/wagering</mechanism>
+            <mechanism>Set collection</mechanism>
+        </gameplayInformation>
+        <suppliesRequired>
+            <additionalSupplies type="chips"/>
+            <suppliesNote> Poker chips, money, or any other items can be used for wagering, though this is optional.</suppliesNote>
+        </suppliesRequired>
+        <subject source="LCSH">Risk-taking (Psychology)</subject>
+        <subject source="LCSH">Gambling</subject>
+        <genre source="Langsdale Game Genre Headings" sourceID="http://metadataregistry.org/concept/show/id/7027.html">Card games</genre>
+    </game>
+</gameSystem>

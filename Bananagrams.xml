@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/tfhenning/tgschema/master/TabletopGamesMetadataSchema1.0.xsd">
+    <title pref="preferred" lang="eng">Bananagrams</title>
+    <contributor type="corporate" role="publishers" source="LCNAF" sourceID="no2015050311">Bananagrams (Firm)</contributor>
+    <contributor type="personal" role="designers" source="LCNAF" sourceID="no2009039010">Nathanson, Rena</contributor>
+    <contributor type="personal" role="designers" source="LCNAF" sourceID="no2009039005">Nathanson, Abe</contributor>
+    <edition>Classic edition</edition>
+    <date type="publication">2006</date>
+    <description>"Addictively simple, and simply addictive, BANANAGRAMS is the fast and frantic word game enjoyed by millions! Players and their opponents aim to use all of their letters to build a word grid in a race to the finish. The first player to use all of their tiles is crowned "Top Banana"!"--Bananagrams.com (https://bananagrams.com/games/bananagrams).</description>
+    <language>eng</language>
+    <contents>144 letter tiles, fabric banana-shaped carrying case, instructions</contents>
+    <dimensions type="container">9 x 3 x 3 in.</dimensions>
+    <dimensions type="container">1 kg</dimensions>
+    <identifier type="ASIN">1932188126</identifier>
+    <identifier type="Item model number">BAN001</identifier>
+    <instructions lang="eng">https://bananagrams.com/files/2018-11/bg-classic-instructions-digital.pdf</instructions>
+    <playerInformation>
+        <minPlayerNumber>1</minPlayerNumber>
+        <maxPlayerNumber>8</maxPlayerNumber>
+        <minRecommendedAge>7</minRecommendedAge>
+    </playerInformation>
+    <gameplayInformation>
+        <maxPlayTime>00:30:00</maxPlayTime>
+        <difficulty source="BGG">1.35/5</difficulty>
+        <mechanism>Tile placement</mechanism>
+    </gameplayInformation>
+    <award>Guldbrikken Best Family Game Nominee, 2012</award>
+    <award>Årets Spill Best Party Game Nominee, 2010</award>
+    <genre source="Langsdale Game Genre Headings" sourceID="http://metadataregistry.org/uri/ubgame/1095">Tile placement board games</genre>
+    <genre source="Langsdale Game Genre Headings" sourceID="http://metadataregistry.org/uri/ubgame/1098">Word board games</genre>
+    <series>Bananagrams</series>
+    <price source="Walmart">$13.99</price>
+    <price source="Barnes and Noble">$14.95</price>
+    <price source="Target">$13.99</price>
+    <gameVariantInformation>
+        <gameVariantTitle lang="eng">Banana Smoothie</gameVariantTitle>
+        <gameVariantInstructions lang="eng">https://bananagrams.com/files/2018-11/bg-classic-instructions-digital.pdf</gameVariantInstructions>
+        <gameVariantNote>This variant takes more time to play.</gameVariantNote>
+    </gameVariantInformation>
+    <gameVariantInformation>
+        <gameVariantTitle lang="eng">Banana Café</gameVariantTitle>
+        <gameVariantInstructions lang="eng">https://bananagrams.com/files/2018-11/bg-classic-instructions-digital.pdf</gameVariantInstructions>
+        <gameVariantNote>This variant allows for portable play since players do not use all of the tiles.</gameVariantNote>
+    </gameVariantInformation>
+    <gameVariantInformation>
+        <gameVariantTitle lang="eng">Banana Solitaire</gameVariantTitle>
+        <gameVariantInstructions>https://bananagrams.com/files/2018-11/bg-classic-instructions-digital.pdf</gameVariantInstructions>
+        <gameVariantNote>This variant is a single-player version of the game.</gameVariantNote>
+    </gameVariantInformation>
+</game>
